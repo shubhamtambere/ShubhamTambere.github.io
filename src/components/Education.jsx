@@ -2,12 +2,27 @@ import React, { useEffect, useState, useContext } from 'react';
 import { Chrono } from 'react-chrono';
 import { Container } from 'react-bootstrap';
 import PropTypes from 'prop-types';
-import Fade from 'react-reveal';
+import Fade from 'react-reveal/Fade';
 import { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import Header from './Header';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/education.css';
+
+
+const styles = {
+ educationHeader: {
+    display: 'flex',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+  },
+  chronoContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+};
 
 function Education(props) {
   const theme = useContext(ThemeContext);
@@ -44,9 +59,11 @@ function Education(props) {
       <Header title={header} />
       {data ? (
         <Fade>
-        Education
-          <div style={{ width }} className="section-content-container">
-            <Container>
+          <div className="section-content-container">
+            <div className="education-header" style={styles.educationHeader}>
+              <h2>Education</h2>
+            </div>
+            <div className="chrono-container" style={styles.chronoContainer}>
               <Chrono
                 hideControls
                 allowDynamicUpdate
@@ -72,7 +89,7 @@ function Education(props) {
                   ) : null))}
                 </div>
               </Chrono>
-            </Container>
+            </div>
           </div>
         </Fade>
       ) : <FallbackSpinner /> }

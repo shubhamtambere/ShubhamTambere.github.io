@@ -15,9 +15,11 @@ import AppContext from '../AppContext';
 const styles = {
   nameStyle: {
     fontSize: '5em',
+    color:'white'
   },
   inlineChild: {
     display: 'inline-block',
+    color:'white'
   },
   mainContainer: {
     height: '90vh',
@@ -33,11 +35,19 @@ const styles = {
   sectionContainer: {
     margin: '20',
     padding: 0,
-    height: '100vh',
+    height: '180vh',
     position: 'relative',
     zIndex: -1, // set a negative zIndex to allow the section to overlap with the previous section
     backgroundColor: 'white',
   },
+  sectionContainer3: {
+      margin: '20',
+      padding: 0,
+      height: '100vh',
+      position: 'relative',
+      zIndex: -1, // set a negative zIndex to allow the section to overlap with the previous section
+      backgroundColor: 'white',
+    },
   sectionContainer2: {
       margin: 0,
       padding: 0,
@@ -94,6 +104,7 @@ function Home() {
                           loop: true,
                           autoStart: true,
                           strings: data?.roles,
+                          style: 'color: white',
                         }}
                       />
                     </div>
@@ -128,18 +139,19 @@ function Home() {
                     <About />
                   </Parallax>
                 </section>
+                 <section className="parallax-section" style={styles.sectionContainer}>
+                                  <Parallax y={[-20, 20]} speed={-7}>
+                                    <Experience />
+                                  </Parallax>
+                                </section>
 
-                <section className="parallax-section" style={styles.sectionContainer}>
+                <section className="parallax-section" style={styles.sectionContainer3}>
                   <Parallax y={[-30, 30]} speed={-5}>
                     <Education />
                   </Parallax>
                 </section>
 
-                <section className="parallax-section" style={styles.sectionContainer}>
-                  <Parallax y={[-20, 20]} speed={-7}>
-                    <Experience />
-                  </Parallax>
-                </section>
+
 
                 <section className="parallax-section" style={styles.sectionContainer}>
                   <Parallax y={[-40, 40]} speed={-4}>
