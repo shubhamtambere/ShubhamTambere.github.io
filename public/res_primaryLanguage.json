@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I am Shubham Tambere.  I am a Software Engineer with experience of more tha 5 years. I enjoys complex problem solving and learning new things!  I am Inquisitive and enjoy understanding how things work.  I am fascinated by tech and have keen interest in designing distributed systems.  I am currently working Finance Systems Org, which is responsible for handling financial transactions involving massive data volume worth billions of dollars and complex business rules. Building and maintaining complex distributed services to ensure accurate and timely payments of worldwide vendorsOutside of work, I enjoy Star Gazing [bit of astronomy buff!] , chess and Cricket [obviously]",
+      "description": " I am Shubham Tambere, a software engineer with over 5 years of experience in the industry. I have a passion for complex problem-solving and constantly strive to learn new things. I possess a curious mindset and enjoy understanding how things work. My primary interest lies in designing distributed systems, and I find the concept of building systems that can handle massive data volumes and complex business rules fascinating.\n\nCurrently, I am working as an SDE2 in the Finance Systems Org at Amazon. My work revolves around handling financial transactions worth billions of dollars and building and maintaining complex distributed services to ensure accurate and timely payments to worldwide vendors. I take immense pride in contributing to the team's success and developing solutions that can make a difference to Amazon's customers.\n\nApart from work, I enjoy star gazing, playing chess, and watching cricket in my free time. ",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -21,76 +21,6 @@
         }
         ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
     "experience": [
       {
         "company": "Amazon.com",

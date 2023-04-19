@@ -75,16 +75,10 @@ class Education extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
-                    <br />
-                    <br />
-                    I have done my Engineering from prestigious College Of Engineering, Pune. I have bachelors degree Information Technology and have maintained CGPA of 7.89.
-                    <br />
-                   <br />  <b>Core courses:</b> Data Structures, Algorithm design, Operating Systems, Database Management Systems, Networking <br />
-                   Apart from regular courses I have completed adavanced courses in UNIX programming
-                   <br />
-                   <br />
-                   I have done my final year project in Natural Language processing and Machine learning.
+                    <span className="wave">{hello} </span>
+                    I am a highly qualified individual with a strong academic background. I completed my Engineering degree from the prestigious College of Engineering, Pune with a Bachelor's in Information Technology and a CGPA of 7.89. During my undergraduate studies, <br /> I focused on core computer science courses such as Data Structures, Algorithm Design, Operating Systems, Database Management Systems, and Networking.
+                       <br />
+                    In addition to the regular coursework, I have also completed advanced courses in UNIX programming. <br /> As a final year project, I worked on Natural Language Processing and Machine Learning, which helped me gain valuable experience in the field.
                   </div>
                 </div>
               </div>
