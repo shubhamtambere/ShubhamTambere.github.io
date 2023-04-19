@@ -16,7 +16,7 @@ class Education extends Component {
     }
 
     return (
-      <section id="about">
+          <section id="about">
       <div className="col-md-12 mx-auto">
                   <div className="col-md-12">
                     <h1 className="section-title" style={{ color: "black" }}>
