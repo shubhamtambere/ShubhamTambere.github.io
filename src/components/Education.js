@@ -32,7 +32,7 @@ class Education extends Component {
           </h1>
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
-              <div className="company-info">
+              <div className="company-info polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="250px"
