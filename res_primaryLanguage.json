@@ -1,0 +1,103 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": " I am Shubham Tambere, a software engineer with over 5 years of experience in the industry. I have a passion for complex problem-solving and constantly strive to learn new things. I possess a curious mindset and enjoy understanding how things work. My primary interest lies in designing distributed systems, and I find the concept of building systems that can handle massive data volumes and complex business rules fascinating.\n\nCurrently, I am working as an SDE2 in the Finance Systems Org at Amazon. My work revolves around handling financial transactions worth billions of dollars and building and maintaining complex distributed services to ensure accurate and timely payments to worldwide vendors. I take immense pride in contributing to the team's success and developing solutions that can make a difference to Amazon's customers.\n\nApart from work, I enjoy star gazing, playing chess, and watching cricket in my free time. ",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      },
+      "social": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/shubham2702/",
+          "class": "fab fa-linkedin"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/shubhamt__/",
+          "class": "fab fa-instagram"
+        }
+        ]
+    },
+    "experience": [
+      {
+        "company": "Amazon.com",
+        "title": "Software Development Engineer II",
+        "years": "11.2021 - present",
+        "mainTech": [
+          "Java / Kotlin"
+        ],
+        "technologies": [
+          "Java",
+          "Kotlin",
+          "Typescript",
+          "Ruby"
+        ]
+      },
+      {
+        "company": "Amazon.com",
+        "title": "Software Development Engineer",
+        "years": "07.2019 - 11.2021",
+        "mainTech": [
+          "Java / Kotlin"
+        ],
+        "technologies": [
+          "Java",
+          "Kotlin",
+          "Typescript"
+          ,"Ruby"
+        ]
+      },
+      {
+        "company": "Veritas Technologies",
+        "title": "Associte Software Development Engineer",
+        "years": "07.2017 - 07.2019",
+        "mainTech": [
+          "Python / BASH"
+        ],
+        "technologies": [
+          "Python",
+          "C",
+          "Bash",
+          "Linux Kernel"
+        ]
+      },
+      {
+        "company": "VMWare Technologies",
+        "title": "Software Development Intern",
+        "years": "05.2016 - 07.2016",
+        "mainTech": [
+          "Java / Angular"
+        ],
+        "technologies": [
+          "Java",
+          "AngularJS"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institute": "COEP Technology University",
+        "degree": "Bachelor of Technology in Information Technology",
+        "grade": "First class with distinction",
+        "years": "06.2013 - 05-2017",
+        "courses": "Data Structures, Algorithm Design, Operating Systems, DBMS, Networking"
+      },
+      {
+        "institute": "NSC Science Bytco College",
+        "degree": "Higher Secondary",
+        "grade": "87.16%",
+        "years": "06.2011 - 05-2013",
+        "courses": ""
+      },
+      {
+        "institute": "Purushottam English School",
+        "degree": "Secondary school examination",
+        "grade": "93.27%",
+        "years": "06.2010",
+        "courses": ""
+      }
+    ]
+  }
