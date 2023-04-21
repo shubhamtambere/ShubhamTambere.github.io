@@ -18,6 +18,11 @@
           "name": "instagram",
           "url": "https://www.instagram.com/shubhamt__/",
           "class": "fab fa-instagram"
+        },
+        {
+          "name": "gmail",
+          "url": "mailto:tamberesm13.it@gmail.com",
+          "class": "fa fa-envelope"
         }
         ]
     },
